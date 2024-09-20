@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/teknologi"
+        android:contentDescription="Logo Politeknik Negeri Padang"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Jurusan Teknologi Informasi"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:gravity="center"/>
+
+    <!-- Address Text -->
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kampus Politeknik Negeri Padang"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="7dp"
+        android:gravity="center" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnMi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manajemen Informatika"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#8A4006"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnTekom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teknik Komputer"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8A4006"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnGaleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galeri Photo"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8A4006"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
